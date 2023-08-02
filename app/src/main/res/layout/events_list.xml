@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="@color/background_recycler"
+        app:strokeWidth="4dp"
+        app:strokeColor="@color/border">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imageview"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="13dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/untold"
+                    android:contentDescription="@string/image_description"
+                    android:scaleType="centerCrop"
+                    app:shapeAppearanceOverlay="@style/roundedimageview"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/eventNameTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/aeonik"
+                    android:text="Event Name"
+                    android:textColor="@color/textTitle"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/dateTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="@font/aeonik"
+                    android:text="Date"
+                    android:textColor="@color/text"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/descriptionTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="@font/aeonik"
+                    android:text="Description"
+                    android:textColor="@color/text"
+                    android:textSize="11sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/cumparaButton"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cumpara"
+                    android:textSize="11sp"
+                    android:fontFamily="@font/aeonik"
+                    android:background="@drawable/round_button"
+                    android:textColor="@color/text"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="left"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SystemTicket</string>
+    <string name="image_description">Image event cannot load.</string>
+    <string-array name="sort_list">
+        <item>Random</item>
+        <item>Pret</item>
+        <item>Data</item>
+    </string-array>
+</resources>

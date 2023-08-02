@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#090707</color>
+    <color name="background_recycler">#A573FF</color>
+    <color name="textTitle">#FFFFFF</color>
+    <color name="border">#5A5C80</color>
+    <color name="text">#fcc7a6</color>
+</resources>
