@@ -42,8 +42,6 @@ public class MainActivity extends AppCompatActivity {
         setupSpinner();
     }
     private void setupList(){
-
-
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
